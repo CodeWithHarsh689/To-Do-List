@@ -1,0 +1,90 @@
+body {
+    background-color: #B7B1F2;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+/* input */
+#input-text {
+    background-color: #FDB7EA;
+    border: none;
+    height: 1.5rem;
+    width: 16rem;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* add button */
+#add-btn {
+    background-color: #FFDCCC;
+    font-size: 16px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-btn:hover{
+    font-weight: bold;
+}
+
+/* task list */
+#task-list{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    color: black;
+}
+
+#task-list li{
+    background-color: #ffe8e8;
+    margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+#task-list:hover{
+    background-color: #fc9d9d;
+}
+
+#task-list li span{
+    font-size: 16px;
+    color: black;
+}
+
+#task-list li span:hover{
+    color: grey;
+    text-decoration: line-through;
+}
+
+/* complete button */
+.mark-btn{
+    background-color: #FFDCCC;
+    font-size: 16px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mark-btn:hover{
+    background-color: #faa37a;
+}
+
+/* delete button */
+.delete-btn{
+    background-color: #FFDCCC;
+    font-size: 16px;
+    margin-left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover{
+    background-color: #faa37a;
+}
+
